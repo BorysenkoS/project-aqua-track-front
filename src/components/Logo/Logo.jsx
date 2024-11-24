@@ -1,7 +1,9 @@
+import css from "./Logo.module.scss";
+
 const Logo = () => {
   return (
     <div>
-      <p>AquaTrack</p>
+      <p className={css.logo}>AQUATRACK</p>
     </div>
   );
 };
